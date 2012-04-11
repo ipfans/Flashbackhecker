@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084DE3431534345000FEC6C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084DE3421534345000FEC6C2 /* Cocoa.framework */; };
+		084DE34D1534345000FEC6C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 084DE34B1534345000FEC6C2 /* InfoPlist.strings */; };
+		084DE34F1534345000FEC6C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 084DE34E1534345000FEC6C2 /* main.m */; };
+		084DE3531534345000FEC6C2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 084DE3511534345000FEC6C2 /* Credits.rtf */; };
+		084DE3561534345000FEC6C2 /* idevAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 084DE3551534345000FEC6C2 /* idevAppDelegate.m */; };
+		084DE3591534345000FEC6C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 084DE3571534345000FEC6C2 /* MainMenu.xib */; };
+		084DE35C1534345000FEC6C2 /* FlashblockChecker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 084DE35A1534345000FEC6C2 /* FlashblockChecker.xcdatamodeld */; };
+		084DE36715343A4000FEC6C2 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 084DE36615343A4000FEC6C2 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		084DE33E1534345000FEC6C2 /* FlashblockChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashblockChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		084DE3421534345000FEC6C2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		084DE3451534345000FEC6C2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		084DE3461534345000FEC6C2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		084DE3471534345000FEC6C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		084DE34A1534345000FEC6C2 /* FlashblockChecker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashblockChecker-Info.plist"; sourceTree = "<group>"; };
+		084DE34C1534345000FEC6C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		084DE34E1534345000FEC6C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		084DE3501534345000FEC6C2 /* FlashblockChecker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashblockChecker-Prefix.pch"; sourceTree = "<group>"; };
+		084DE3521534345000FEC6C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		084DE3541534345000FEC6C2 /* idevAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = idevAppDelegate.h; sourceTree = "<group>"; };
+		084DE3551534345000FEC6C2 /* idevAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idevAppDelegate.m; sourceTree = "<group>"; };
+		084DE3581534345000FEC6C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		084DE35B1534345000FEC6C2 /* FlashblockChecker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlashblockChecker.xcdatamodel; sourceTree = "<group>"; };
+		084DE36615343A4000FEC6C2 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		084DE33B1534345000FEC6C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084DE3431534345000FEC6C2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		084DE3331534345000FEC6C2 = {
+			isa = PBXGroup;
+			children = (
+				084DE36615343A4000FEC6C2 /* icon.icns */,
+				084DE3481534345000FEC6C2 /* FlashblockChecker */,
+				084DE3411534345000FEC6C2 /* Frameworks */,
+				084DE33F1534345000FEC6C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		084DE33F1534345000FEC6C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				084DE33E1534345000FEC6C2 /* FlashblockChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		084DE3411534345000FEC6C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				084DE3421534345000FEC6C2 /* Cocoa.framework */,
+				084DE3441534345000FEC6C2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		084DE3441534345000FEC6C2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				084DE3451534345000FEC6C2 /* AppKit.framework */,
+				084DE3461534345000FEC6C2 /* CoreData.framework */,
+				084DE3471534345000FEC6C2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		084DE3481534345000FEC6C2 /* FlashblockChecker */ = {
+			isa = PBXGroup;
+			children = (
+				084DE3541534345000FEC6C2 /* idevAppDelegate.h */,
+				084DE3551534345000FEC6C2 /* idevAppDelegate.m */,
+				084DE3571534345000FEC6C2 /* MainMenu.xib */,
+				084DE35A1534345000FEC6C2 /* FlashblockChecker.xcdatamodeld */,
+				084DE3491534345000FEC6C2 /* Supporting Files */,
+			);
+			path = FlashblockChecker;
+			sourceTree = "<group>";
+		};
+		084DE3491534345000FEC6C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				084DE34A1534345000FEC6C2 /* FlashblockChecker-Info.plist */,
+				084DE34B1534345000FEC6C2 /* InfoPlist.strings */,
+				084DE34E1534345000FEC6C2 /* main.m */,
+				084DE3501534345000FEC6C2 /* FlashblockChecker-Prefix.pch */,
+				084DE3511534345000FEC6C2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		084DE33D1534345000FEC6C2 /* FlashblockChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084DE35F1534345100FEC6C2 /* Build configuration list for PBXNativeTarget "FlashblockChecker" */;
+			buildPhases = (
+				084DE33A1534345000FEC6C2 /* Sources */,
+				084DE33B1534345000FEC6C2 /* Frameworks */,
+				084DE33C1534345000FEC6C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashblockChecker;
+			productName = FlashblockChecker;
+			productReference = 084DE33E1534345000FEC6C2 /* FlashblockChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		084DE3351534345000FEC6C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = idev;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Baidu;
+			};
+			buildConfigurationList = 084DE3381534345000FEC6C2 /* Build configuration list for PBXProject "FlashblockChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 084DE3331534345000FEC6C2;
+			productRefGroup = 084DE33F1534345000FEC6C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				084DE33D1534345000FEC6C2 /* FlashblockChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		084DE33C1534345000FEC6C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084DE34D1534345000FEC6C2 /* InfoPlist.strings in Resources */,
+				084DE3531534345000FEC6C2 /* Credits.rtf in Resources */,
+				084DE3591534345000FEC6C2 /* MainMenu.xib in Resources */,
+				084DE36715343A4000FEC6C2 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		084DE33A1534345000FEC6C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084DE34F1534345000FEC6C2 /* main.m in Sources */,
+				084DE3561534345000FEC6C2 /* idevAppDelegate.m in Sources */,
+				084DE35C1534345000FEC6C2 /* FlashblockChecker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		084DE34B1534345000FEC6C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				084DE34C1534345000FEC6C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		084DE3511534345000FEC6C2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				084DE3521534345000FEC6C2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		084DE3571534345000FEC6C2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				084DE3581534345000FEC6C2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		084DE35D1534345100FEC6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		084DE35E1534345100FEC6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		084DE3601534345100FEC6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashblockChecker/FlashblockChecker-Prefix.pch";
+				INFOPLIST_FILE = "FlashblockChecker/FlashblockChecker-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		084DE3611534345100FEC6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashblockChecker/FlashblockChecker-Prefix.pch";
+				INFOPLIST_FILE = "FlashblockChecker/FlashblockChecker-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		084DE3381534345000FEC6C2 /* Build configuration list for PBXProject "FlashblockChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084DE35D1534345100FEC6C2 /* Debug */,
+				084DE35E1534345100FEC6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		084DE35F1534345100FEC6C2 /* Build configuration list for PBXNativeTarget "FlashblockChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084DE3601534345100FEC6C2 /* Debug */,
+				084DE3611534345100FEC6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		084DE35A1534345000FEC6C2 /* FlashblockChecker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				084DE35B1534345000FEC6C2 /* FlashblockChecker.xcdatamodel */,
+			);
+			currentVersion = 084DE35B1534345000FEC6C2 /* FlashblockChecker.xcdatamodel */;
+			path = FlashblockChecker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 084DE3351534345000FEC6C2 /* Project object */;
+}
